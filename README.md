@@ -1,0 +1,1 @@
+This Dockerfile uses `ubuntu:latest`, which is not recommended for production environments.  The `latest` tag can change unexpectedly, leading to build inconsistencies.  This can cause your application to break if the underlying base image changes between builds. For a more robust and predictable build, use a specific tag (e.g., `ubuntu:20.04`).
